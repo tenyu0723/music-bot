@@ -1,0 +1,21 @@
+{
+  "name": "glitch-discord-bot",
+  "version": "0.0.0",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "@discordjs/opus": "^0.8.0",
+    "discord-music-player": "^9.1.1",
+    "lyrics-finder": "^21.7.0",
+    "yt-search": "^2.10.3",
+    "isomorphic-unfetch": "^3.1.0",
+    "http": "^0.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
