@@ -729,4 +729,4 @@ client.on("interactionCreate", async interaction => {
     };
 });
 client.login("TOKEN").catch(_ => console.log("トークンが間違っています。"));
-process.on('uncaughtException', e => console.log(`エラーが発生しました(Githubで教えてくれると幸いです)\nエラー↓\n${e}`));
+process.on('uncaughtException', e => console.log(`エラーが発生しました\nエラー↓\n${e}`));
